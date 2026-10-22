@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VerboSAAC</title>
+<meta name="description" content="VerboSAAC: comunicación aumentativa con pictogramas en español. Un tablero para formar frases, un teclado que conjuga los verbos y un conversor que pasa cualquier texto a pictogramas.">
+<link rel="canonical" href="https://verbosaac.com/">
+<meta name="theme-color" content="#0f3830">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/icono-192.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="VerboSAAC: comunicación con pictogramas">
+<meta property="og:description" content="Un tablero para formar frases, un teclado que conjuga los verbos y un conversor que pasa cualquier texto a pictogramas.">
+<meta property="og:url" content="https://verbosaac.com/">
+<meta property="og:image" content="https://verbosaac.com/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="fonts/bricolage-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<a class="saltar" href="#contenido">Ir al contenido</a>
+
+<header class="cabecera">
+  <div class="envoltura">
+    <a class="marca" href="./" aria-label="VerboSAAC, inicio"><img src="img/icono-128.png" alt="" width="40" height="40">VerboSAAC</a>
+    <nav class="menu" aria-label="Secciones">
+      <a href="#que-hace">Qué hace</a>
+      <a href="#para-quien">Para quién</a>
+      <a href="privacidad.html">Privacidad</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <section class="portada" aria-labelledby="titulo">
+    <div class="envoltura">
+      <div class="texto">
+        <p class="antetitulo">Comunicación aumentativa y alternativa, en español</p>
+        <h1 id="titulo">Verbo<span class="saac">SAAC</span></h1>
+        <p class="entradilla">Pictogramas para <strong>hablar, entender y organizar el día</strong>. Un tablero para formar frases, un teclado que conjuga los verbos y un conversor que pasa cualquier texto a pictogramas.</p>
+
+        <figure class="frase" aria-label="Ejemplo de frase con pictogramas: yo quiero hablar">
+          <div class="frase-barra">
+            <span class="frase-altavoz" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3h-7l-5 4v-4H5a3 3 0 0 1-3-3v-6a3 3 0 0 1 3-3z" transform="translate(1 1)"/><path d="M27 10.5a7 7 0 0 1 0 10"/><path d="M30 7.5a11 11 0 0 1 0 16"/></svg>
+            </span>
+            <span class="casilla t-persona"><img src="img/pictos/yo.webp" alt="" width="68" height="68">yo</span>
+            <span class="casilla t-verbo"><img src="img/pictos/quiero.svg" alt="" width="68" height="68">quiero</span>
+            <span class="casilla t-verbo"><img src="img/pictos/hablar.svg" alt="" width="68" height="68">hablar</span>
+          </div>
+          <figcaption class="frase-nota">Tocas «yo», «querer» y «hablar», y la app dice «yo quiero hablar», con el verbo conjugado.</figcaption>
+        </figure>
+
+        <div class="disponible">
+          <span class="etiqueta-pronto">Próximamente para Android, iPhone y iPad</span>
+          <a class="boton boton-ambar" href="#contacto">Quiero saber más</a>
+        </div>
+      </div>
+
+      <div class="movil">
+        <img src="img/capturas/comunicador.webp" width="600" height="1252" alt="Pantalla del comunicador de VerboSAAC: arriba la frase «yo quiero comer» y debajo el tablero de pictogramas con casillas de colores.">
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion" id="que-hace" aria-labelledby="t-que-hace">
+    <div class="envoltura">
+      <div class="cabeza">
+        <h2 id="t-que-hace">Tres maneras de comunicarse</h2>
+        <p>Cada persona se comunica a su manera. VerboSAAC reúne en una sola app el tablero de pictogramas, la escritura y la lectura con apoyo visual.</p>
+      </div>
+
+      <div class="tres">
+        <article class="modo">
+          <div class="ventana"><img src="img/capturas/ventana-comunicador.webp" width="720" height="587" loading="lazy" alt="El comunicador: arriba la frase «yo quiero comer» y debajo el tablero, con casillas de pictogramas de colores."></div>
+          <h3>Comunicador</h3>
+          <div>
+            <p>Un tablero de pictogramas organizado en carpetas: comida, personas, sentimientos, lugares, el colegio… Tocas las casillas, la frase se forma arriba y la app la dice en voz alta.</p>
+            <p class="ejemplo">Los verbos se conjugan solos: <s>yo querer comer</s> → <b>yo quiero comer</b></p>
+          </div>
+        </article>
+
+        <article class="modo">
+          <div class="ventana"><img src="img/capturas/ventana-teclado.webp" width="720" height="587" loading="lazy" alt="El teclado: se escribe «nosotros ir al parque» y la app pone «nosotros vamos al parque», con un pictograma para cada palabra y pictogramas sugeridos debajo."></div>
+          <h3>Teclado</h3>
+          <div>
+            <p>Para quien ya escribe: cada palabra aparece con su pictograma y hay sugerencias para ir más rápido. Cuando está claro quién habla, corrige la conjugación.</p>
+            <p class="ejemplo"><s>nosotros ir al parque</s> → <b>nosotros vamos al parque</b></p>
+          </div>
+        </article>
+
+        <article class="modo">
+          <div class="ventana"><img src="img/capturas/ventana-conversor.webp" width="720" height="587" loading="lazy" alt="El conversor: botones para hacer una foto o abrir una imagen, y un texto escrito listo para convertir."></div>
+          <h3>Conversor</h3>
+          <div>
+            <p>Escribe un texto o hazle una foto (una nota del cole, un cuento, un cartel, la carta de un restaurante) y la app lo convierte en una lámina de pictogramas.</p>
+            <p class="ejemplo">La lámina se puede leer en voz alta, guardar como imagen o compartir.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion" aria-labelledby="t-texto">
+    <div class="envoltura">
+      <div class="cabeza">
+        <h2 id="t-texto">Del texto a los pictogramas</h2>
+        <p>Cada palabra con su pictograma, en el mismo orden que el texto, para leerlo con apoyo visual.</p>
+      </div>
+      <div class="conversion">
+        <div class="nota">
+          <p class="antetitulo">Texto</p>
+          <blockquote>Hoy vamos al parque con mis amigos, después comemos helado.</blockquote>
+        </div>
+        <span class="flecha" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 24h30"/><path d="M28 13l11 11-11 11"/></svg></span>
+        <figure class="lamina" style="margin:0">
+          <img src="img/capturas/lamina.webp" width="1200" height="536" loading="lazy" alt="La frase convertida en 10 pictogramas: hoy, vamos, al, parque, con, mis, amigos, después, comemos, helado.">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion" aria-labelledby="t-ademas">
+    <div class="envoltura">
+      <div class="cabeza">
+        <h2 id="t-ademas">Y para el resto del día</h2>
+        <p>Herramientas visuales para anticipar lo que viene, esperar, jugar y relajarse, con los mismos pictogramas del tablero.</p>
+      </div>
+      <div class="cuatro">
+        <article class="extra">
+          <div class="movil"><img src="img/capturas/agenda.webp" width="600" height="1252" loading="lazy" alt="La agenda visual con la rutina de la mañana: despertarse, ir al baño, lavarse la cara, vestirse, desayunar."></div>
+          <h3>Agenda visual</h3>
+          <p>Rutinas y horarios con pictogramas: la rutina de la mañana, el horario del cole, la hora de dormir. Se marca lo que ya está hecho y se ve qué viene después.</p>
+        </article>
+        <article class="extra">
+          <div class="movil"><img src="img/capturas/temporizador.webp" width="600" height="1252" loading="lazy" alt="El temporizador visual, con una esfera de colores y el tiempo que queda."></div>
+          <h3>Temporizador</h3>
+          <p>El tiempo que queda se ve como una zona de color que se va haciendo pequeña. Al terminar, avisa con sonido, vibración y voz.</p>
+        </article>
+        <article class="extra">
+          <div class="movil"><img src="img/capturas/juegos.webp" width="600" height="1252" loading="lazy" alt="El juego de parejas: dos parejas encontradas, «pan» y «tener», y el resto de cartas boca abajo."></div>
+          <h3>Juegos</h3>
+          <p>Parejas, Busca la categoría y Ordena en categorías, con los pictogramas del propio tablero.</p>
+        </article>
+        <article class="extra">
+          <div class="movil"><img src="img/capturas/relax.webp" width="600" height="1252" loading="lazy" alt="La zona relax con sonidos de mar, lluvia, bosque y música."></div>
+          <h3>Zona relax</h3>
+          <p>Sonidos de mar, lluvia o bosque, música tranquila y pictogramas que flotan por la pantalla.</p>
+        </article>
+      </div>
+
+      <ul class="datos" aria-label="Más características">
+        <li>Más de 14.000 pictogramas</li>
+        <li>Tus propias palabras, fotos y voces</li>
+        <li>Funciona sin internet</li>
+        <li>Sin cuentas ni registros</li>
+        <li>Tema claro, oscuro o verde</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="seccion" aria-labelledby="t-colores">
+    <div class="envoltura">
+      <div class="cabeza">
+        <h2 id="t-colores">Un color para cada tipo de palabra</h2>
+        <p>Las casillas siguen la clave de colores Fitzgerald, muy usada en comunicación aumentativa: el color ayuda a encontrar cada palabra y a ordenar la frase.</p>
+      </div>
+      <ul class="clave">
+        <li class="t-persona"><img src="img/pictos/yo.webp" alt="" width="56" height="56" loading="lazy"><b>Personas</b><span>yo, tú, mamá</span></li>
+        <li class="t-verbo"><img src="img/pictos/comer.svg" alt="" width="56" height="56" loading="lazy"><b>Acciones</b><span>comer, ir, jugar</span></li>
+        <li class="t-adjetivo"><img src="img/pictos/bien.svg" alt="" width="56" height="56" loading="lazy"><b>Cualidades</b><span>bien, grande, rápido</span></li>
+        <li class="t-cosa"><img src="img/pictos/agua.webp" alt="" width="56" height="56" loading="lazy"><b>Cosas</b><span>agua, pelota, casa</span></li>
+        <li class="t-social"><img src="img/pictos/hola.webp" alt="" width="56" height="56" loading="lazy"><b>Social</b><span>hola, gracias, sí</span></li>
+        <li class="t-otro"><img src="img/pictos/con.webp" alt="" width="56" height="56" loading="lazy"><b>Nexos</b><span>con, y, a</span></li>
+        <li class="t-categoria"><img src="img/pictos/comida.webp" alt="" width="56" height="56" loading="lazy"><b>Carpetas</b><span>comida, lugares</span></li>
+        <li class="t-urgente"><img src="img/pictos/no.svg" alt="" width="56" height="56" loading="lazy"><b>Urgencias</b><span>no, ayuda, me duele</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="seccion" id="para-quien" aria-labelledby="t-quien">
+    <div class="envoltura">
+      <div class="cabeza">
+        <h2 id="t-quien">Pensada para</h2>
+      </div>
+      <ul class="quien">
+        <li><img src="img/pictos/familia.webp" alt="" width="72" height="72" loading="lazy"><h3>Familias</h3><p>Para comunicarse en casa, anticipar el día con la agenda y entender juntos los textos del día a día.</p></li>
+        <li><img src="img/pictos/comunicar.svg" alt="" width="72" height="72" loading="lazy"><h3>Logopedas y terapeutas</h3><p>Un tablero que se adapta a cada persona, con sus palabras, sus fotos y sus voces.</p></li>
+        <li><img src="img/pictos/colegio.webp" alt="" width="72" height="72" loading="lazy"><h3>Colegios y aulas</h3><p>Horarios visuales, temporizador y textos de clase convertidos en pictogramas.</p></li>
+        <li><img src="img/pictos/hablar.svg" alt="" width="72" height="72" loading="lazy"><h3>Personas adultas</h3><p>Para quien necesita apoyo visual para expresarse o para entender un texto.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="seccion" aria-labelledby="t-privado">
+    <div class="envoltura">
+      <div class="privado">
+        <img src="img/pictos/candado.webp" alt="" width="120" height="120" loading="lazy">
+        <div class="texto">
+          <h2 id="t-privado">Lo tuyo se queda en tu dispositivo</h2>
+          <p>VerboSAAC no pide cuentas ni registros. Tus frases, tus fotos, tus voces grabadas y tu tablero se guardan en el móvil o la tableta, y la app no los envía a ningún servidor.</p>
+          <p><a href="privacidad.html">Leer la política de privacidad</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<section class="contacto" id="contacto" aria-labelledby="t-contacto">
+  <div class="envoltura">
+    <p class="antetitulo">Muy pronto</p>
+    <h2 id="t-contacto">VerboSAAC llegará a Android, iPhone y iPad</h2>
+    <p>¿Quieres probarla antes, usarla en tu centro o tienes alguna pregunta? Escríbenos.</p>
+    <div class="correo">
+      <a id="correo" href="mailto:info@verbosaac.com">info@verbosaac.com</a>
+      <button class="boton-copiar" id="copiar-correo" type="button">Copiar dirección</button>
+    </div>
+  </div>
+</section>
+
+<footer class="pie">
+  <div class="envoltura">
+    <span>© 2026 VerboSAAC</span>
+    <nav aria-label="Información legal">
+      <a href="privacidad.html">Política de privacidad</a>
+      <a href="creditos.html">Créditos y licencias</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var b = document.getElementById('copiar-correo');
+    if (!b) return;
+    b.addEventListener('click', function () {
+      var texto = 'info@verbosaac.com';
+      var listo = function () { b.textContent = 'Dirección copiada'; setTimeout(function () { b.textContent = 'Copiar dirección'; }, 2500); };
+      var seleccionar = function () {
+        var r = document.createRange(); r.selectNodeContents(document.getElementById('correo'));
+        var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+        b.textContent = 'Selecciónala y cópiala';
+      };
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(texto).then(listo, seleccionar);
+        else seleccionar();
+      } catch (e) { seleccionar(); }
+    });
+  })();
+</script>
+</body>
+</html>
